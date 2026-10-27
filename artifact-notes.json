@@ -1,0 +1,94 @@
+{
+  "status": "working draft for Steve review; AAT rehearsal pending",
+  "audiences": [
+    "Senior Master, 27 October 2026",
+    "Senior stakeholders, 28 October 2026"
+  ],
+  "timing": {
+    "introduction_minutes": 2,
+    "demo_minutes": 18,
+    "wrap_up_minutes": 2,
+    "discussion_minutes": 38,
+    "tomorrow_slot": "not yet confirmed"
+  },
+  "brand_sources": [
+    ".hmcts_branding/brand-guidelines-colour.pdf (core HEX values used instead of older template palette)",
+    ".hmcts_branding/brand-guidelines-typography.pdf (Arial; navy/black copy; ordered headings)",
+    ".hmcts_branding/hmcts-brand-logo-guide.pdf (supplied landscape logo unmodified)",
+    ".hmcts_branding/HMCTS_Lesser_Arms_Landscape_HEX.png (embedded unchanged)"
+  ],
+  "content_sources": [
+    "architecture/overview.md",
+    "journeys/process-maps/02-caseworker-review-and-case-state.md",
+    "journeys/process-maps/03-referral-and-judicial-decision.md",
+    "journeys/process-maps/04-enrolment-and-correspondence.md",
+    "operations/deployment-readiness-checklist.md",
+    "reference/verification-report.md"
+  ],
+  "scope": "Standalone attendee overview and private presenter script; no live AAT writes, emails or acceptance checks performed.",
+  "browser_checks": [
+    {
+      "name": "overview",
+      "overflow": [],
+      "errors": [],
+      "remoteRequests": [],
+      "interaction": null
+    },
+    {
+      "name": "demo-script",
+      "overflow": [],
+      "errors": [],
+      "remoteRequests": [],
+      "interaction": {
+        "cueToggleHides": true,
+        "cueToggleRestores": true,
+        "checklistCounter": "1 of 10 rehearsal checks complete"
+      }
+    }
+  ],
+  "sharing": "Each principal HTML file has embedded styling/logo. The presenter script additionally links to the optional sample PDF, which should accompany it for rehearsal. The attendee overview remains standalone.",
+  "overview_review": "Steve confirmed the overview is good; retain agreed content.",
+  "main_demo_case": {
+    "reference": "KBDP2026-00003",
+    "environment": "AAT",
+    "supplied_by": "Steve",
+    "runtime_state": "Steve reports: Received; no documents attached; no existing referral.",
+    "later_stage_case": "not yet selected",
+    "id": "6e0af6c6-cdb9-4b75-a70e-13bb663742c5",
+    "url": "https://deed-poll-admin.aat.platform.hmcts.net/deed-polls/6e0af6c6-cdb9-4b75-a70e-13bb663742c5",
+    "identity_evidence": "Matched reference/id in local AAT seed journal dated 2026-10-05; current record content not inspected.",
+    "access_check": "Direct AAT case URL returned HTTP 302 without an authenticated session.",
+    "remaining_checks": [
+      "attach sample PDF and confirm two-page viewer/original download",
+      "rehearse raising, claiming and recording a direction",
+      "select prepared later-stage case if enrolment is included"
+    ],
+    "confirmation_source": "Steve\u2019s message in this session; not independently verified through authenticated access.",
+    "referral_reasons": {
+      "confirmed_by": "Steve, from the AAT form during rehearsal",
+      "options": [
+        "Applicant is a minor",
+        "Domestic abuse considerations",
+        "Non-publication request",
+        "Declarant requirements not met",
+        "Separated or estranged",
+        "Other"
+      ],
+      "selected_reason": "Other \u2014 planned rehearsal choice; submission not independently verified",
+      "demonstration_explanation": "Demonstration referral for KBDP2026-00003 \u2014 judicial review workflow rehearsal.",
+      "rehearsal_priority": "Urgent \u2014 AAT demonstration only",
+      "urgency_explanation": "AAT demonstration only \u2014 prioritised to make this referral visible during the rehearsal."
+    },
+    "judicial_worklist": {
+      "confirmed_by": "Steve, during AAT rehearsal",
+      "behaviour": "Shows the ten oldest referrals, with urgent referrals at the top; no search."
+    }
+  },
+  "sample_document": {
+    "file": "demo-supporting-document.pdf",
+    "pages": 2,
+    "purpose": "Labelled demonstration-only supporting PDF; no applicant facts, signatures or real evidence",
+    "uploaded_by_assistant": false
+  },
+  "browser_checks_scope": "Checks recorded here apply to the initial HTML layout and controls. Subsequent case-specific text/link edits were checked for content and PDF validity."
+}
